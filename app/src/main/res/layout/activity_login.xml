@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDB04E"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/mTvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:letterSpacing="0.2"
+        android:text="WELCOME TO SAFARI MEMORIES"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mTvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingTop="2dp"
+        android:text="Where memories last a lifetime"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/mLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/mEdtName"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/mEdtEmail"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/mEdtPassword"
+            android:layout_marginTop="30dp"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/mBtnLogin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:text="Login" />
+
+        <LinearLayout
+            android:id="@+id/mLinearVertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mTvSignup"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create An Account" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

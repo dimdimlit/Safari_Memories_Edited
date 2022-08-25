@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "626145245289",
+    "project_id": "my-safari-test-app",
+    "storage_bucket": "my-safari-test-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626145245289:android:de9a41202501a0379fcaf8",
+        "android_client_info": {
+          "package_name": "com.example.mysafaritestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626145245289-tq4od9f7dcnlqnvq3poo8fil1s2v7r4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl4pBmNwDy5uK1IMFctrPS3C6O4ocCb_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626145245289-tq4od9f7dcnlqnvq3poo8fil1s2v7r4n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

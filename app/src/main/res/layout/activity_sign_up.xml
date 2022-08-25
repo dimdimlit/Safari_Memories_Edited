@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#EDB04E"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textColor="#277"
+        android:textSize="25sp"
+        android:text="Sign Up" />
+
+    <EditText
+        android:layout_marginLeft="100dp"
+        android:id="@+id/mEdtSignUpName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:lines="1"
+        android:hint="Enter UserName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_marginLeft="100dp"
+        android:id="@+id/mEdtSignUpEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/mEdtSignUpPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:layout_marginLeft="100dp"
+        android:id="@+id/mEdtSignUpConfPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:background="#EDB04E"
+        android:id="@+id/mBtnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:text="Start" />
+
+</LinearLayout>
